@@ -1,0 +1,13 @@
+body .container {
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+body .row-auto {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+}

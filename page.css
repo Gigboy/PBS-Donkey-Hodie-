@@ -1,0 +1,89 @@
+html {
+	min-height: 100%;
+	background-color: #0d6efd;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	position: relative;
+}
+
+#site {
+	box-sizing: border-box;
+	position: relative;
+	font-family: "Grandstander",cursive;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	overflow: hidden;
+}
+
+#site *,#site *::before,#site *::after {
+    box-sizing: inherit;
+}
+
+.c-header__logos {
+	height: 140px;
+}
+
+.c-header__pbskids {
+	position: absolute;
+	display: block;
+}
+
+.c-header__pbskids {
+	width: 72px;
+	height: 72px;
+	left: 20px;
+	top: 20px;
+}
+
+.c-header__pbskids img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.c-header__donkey-hodie {
+    display: block
+}
+
+.c-header__donkey-hodie img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+@media only screen and (min-width: 760px)and (max-width: 1024px),only screen and (min-width: 1025px) {
+    .c-header__donkey-hodie {
+        position:absolute;
+        display: block;
+        width: 210px;
+        height: 138px;
+        left: 95px;
+        top: 5px
+    }
+
+    .c-header__donkey-hodie:hover {
+        -webkit-animation: hoverWobble 750ms linear;
+        animation: hoverWobble 750ms linear
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    .c-header__donkey-hodie {
+        width:14.35em;
+        height: 8.6em;
+        top: 0;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0)
+    }
+}
+

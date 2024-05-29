@@ -1,0 +1,279 @@
+.c-header__logos h2 {
+	font-size: 1em;
+	margin: 0;
+}
+
+.c-header__donkey-hodie {
+	position: absolute;
+	display: block;
+	width: 210px;
+	height: 138px;
+	left: 95px;
+	top: 5px;
+}
+
+.c-header__donkey-hodie img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.c-header__games {
+	width: 218px;
+	height: 77px;
+}
+
+.c-header__menu-item {
+	position: relative;
+	font-weight: 900;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.c-header__menu-item a {
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.c-header__games span {
+	padding-left: 98px;
+}
+
+.c-header__menu-item span {
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.c-header__menu-item span {
+	color: #a0522d;
+}
+
+.c-header__games span::before {
+	width: 57px;
+	height: 45px;
+	left: 65px;
+}
+
+.c-header__menu-item span::before {
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.c-header__menu-item span::before {
+	content: "";
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	position: absolute;
+}
+
+.c-header__menu-item span {
+	text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+.c-header__games a::after {
+	width: 306px;
+	height: 166px;
+}
+
+.c-header__menu-item a::after {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.c-header__menu-item span::after {
+	content: "";
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}
+
+.c-footer {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.c-footer {
+	position: relative;
+	flex-grow: 1;
+	text-align: center;
+	padding: 1px 0;
+	z-index: 100;
+}
+
+.c-footer::before {
+	content: "";
+	display: block;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	transform: translate(0, -20px);
+}
+
+.c-footer__menu {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.c-footer__menu-items {
+	margin: 0 -20px;
+}
+
+.c-footer__menu-items {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.c-footer__menu-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+.c-footer__menu-item {
+	text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+.c-footer__menu-item a {
+	color: #2683ff;
+	font-weight: 900;
+}
+
+.c-footer__sponsors {
+	margin: 10px -35px;
+}
+
+.c-footer__sponsors {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.c-footer__sponsors-group {
+	margin: 10px 35px;
+}
+
+.c-footer__sponsors-title {
+	font-size: 18px;
+	margin-bottom: 7px;
+}
+
+.c-footer__sponsors-title {
+	color: #1a4474;
+	font-weight: 900;
+}
+
+.c-footer__logos {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -10px;
+}
+
+.c-footer__logos {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.c-footer__logo {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.c-footer__logo--fred-rogers img {
+	width: 89px;
+}
+
+.c-footer__logo img {
+	display: block;
+}
+
+.c-footer__logo--spiffy img {
+	width: 88px;
+}
+
+.c-footer__sponsors-group {
+	margin: 10px 35px;
+}
+
+.c-footer__logo--fred-rogers img {
+	width: 89px;
+}
+
+.c-footer__logo--spiffy img {
+	width: 88px;
+}
+
+.c-footer__sponsors-group {
+	margin: 10px 35px;
+}
+
+.c-footer__logos--funded {
+	max-width: 402px;
+	flex-wrap: wrap;
+}
+
+.c-footer__logo--avdf img {
+	width: 158px;
+}
+
+.c-footer__logo-afg img {
+	width: 183px;
+	border-radius: 3px;
+}
+
+.c-footer__credit {
+	color: #1a4474;
+	max-width: 630px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.c-footer__legal {
+	font-size: 16px;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.c-footer__legal {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: -15px;
+	margin-right: -15px;
+	color: #1a4474;
+}
+
+.c-footer__legal small {
+	font-size: 1em;
+}
+
+.c-footer__privacy {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.c-footer__legal a {
+	color: #1a4474;
+}

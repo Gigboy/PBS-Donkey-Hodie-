@@ -1,0 +1,20 @@
+.pe-2 {
+	padding-right: 8px!important;
+}
+
+.align-self-center {
+	align-self: center!important;
+}
+
+.px-4 {
+	padding-right: 16px!important;
+	padding-left: 16px!important;
+}
+
+.mb-2 {
+	margin-bottom: 8px!important;
+}
+
+.align-items-start {
+	align-items: flex-start!important;
+}
